@@ -1,7 +1,8 @@
 #include <iostream>
-using namespace std;
+#include "MinMax.hpp"
 
 int main(){
-    cout << "Hello World";
+    vector<int> vec = GerarVetor(500000);
+    registrarVetor(vec,"dataset/vetores.mps.txt");
     return 0;
 }
