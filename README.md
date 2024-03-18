@@ -55,10 +55,11 @@ Assim sendo tem-se o sistema abaixo contendo os arquivos citados acima além do 
   <img src="figuras/MINMAXCPP6.png" alt="MINMAX.cpp">
   <img src="figuras/MAIN.png" alt="Main">
 </p>
-  Primordialmente utilizei da biblioteca cstdlib devido a função "rand" para gerar os valores aleatórios que serão colocados dentro do vetor através da função "GerarVetor" sendo delimitado entre os inteiros 0 e 1000.
-  <br>Após isso, criei as funções "organizarCrescente" e "organizarDecrescente" que utilizam da biblioteca algorithm e functional para assim como foi dito na função organizar o vetor crescentemente e decrescentemente, através da função "sort" e "greater"
-  <br>A biblioteca ctime foi utilizada para quantificar o tempo de execução através da função "clock". A biblioteca fstream foi utilizada para acessar o arquivo com "ofstream",e por fim, a biblioteca vector foi utilizada para facilitar a manipulação de vetores.
-
+  Primordialmente utilizei da biblioteca cstdlib devido a função "rand" para gerar os valores aleatórios que serão colocados dentro do vetor através da função "GerarVetor" sendo delimitado entre os inteiros 0 e 1000 através de da linha com "rand() % 1001".
+  <br><br>Após isso, criei as funções "organizarCrescente" e "organizarDecrescente" que utilizam da biblioteca algorithm e functional para assim como foi dito na função organizar o vetor crescentemente e decrescentemente, através da função "sort" e "greater".
+  <br><br>A biblioteca ctime foi utilizada para quantificar o tempo de execução através da função "clock". A biblioteca fstream foi utilizada para acessar o arquivo com "ofstream",e por fim, a biblioteca vector foi utilizada para facilitar a manipulação de vetores. A função "printarVetor" apenas percorre o vetor printando os valores.
+  <br><br>Agora referindo-se ao funcionamento de cada função MinMax, "MinMax1" confere todo o vetor através de um laço "for", utilizando duas operações lógicas "if" e gerando um consumo computacional em forma de função "2(n-1)" sendo "n" o tamanho do vetor.
+  <br><br>Por sua vez, "MinMax2" confere todo o vetor através de uma operação lógica "if" e outra "else if" gerando uma otimização do tempo de execução, que varia dentre as funções "(n-1)" no melhor dos casos e "(3n-3/2)" no pior dos casos.
 
 
 </p>
