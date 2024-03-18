@@ -60,7 +60,14 @@ Assim sendo tem-se o sistema abaixo contendo os arquivos citados acima além do 
   <br><br>A biblioteca ctime foi utilizada para quantificar o tempo de execução através da função "clock". A biblioteca fstream foi utilizada para acessar o arquivo com "ofstream",e por fim, a biblioteca vector foi utilizada para facilitar a manipulação de vetores. A função "printarVetor" apenas percorre o vetor printando os valores.
   <br><br>Agora referindo-se ao funcionamento de cada função MinMax, "MinMax1" confere todo o vetor através de um laço "for", utilizando duas operações lógicas "if" e gerando um consumo computacional em forma de função "2(n-1)" sendo "n" o tamanho do vetor.
   <br><br>Por sua vez, "MinMax2" confere todo o vetor através de uma operação lógica "if" e outra "else if" gerando uma otimização do tempo de execução, que varia dentre as funções "(n-1)" no melhor dos casos e "(3n-3/2)" no pior dos casos.
-
+  <br><br>E por fim, "MinMax3" verifica as duas posições iniciais (para já facilitar caso uma delas seja o mínimo ou máximo) e por seguinte utiliza de um laço "for" único para verificar tanto uma posição quanto a sua sucessora, facilitando o algoritmo e tornando todos os casos com consumo computacional de tempoem"(3n-3/2)".
+  <br><br>A função "Media" basicamente recebe o vetor e uma opção que refere-se ao qual MinMax o usuário deseja fazer uma média de tempo de execução. No fim somando-os e dividindo por dez, assim retornando essa média. E a função "registrarVetor" abre o arquivo de saida, declara os tempos de execução (chamando a função Media) e no fim imprimindo dentro do arquivo de maneira organizada.
+  <br><br>Assim na main apenas geramos o vetor com o tamanho desejado e utilizamos a função "registrarVetor" que engloba o programa todo em sua base.
+  <br><br>Agora referindo-se aos casos de testes sugeridos, tem-se a tabela abaixo com a média de execução coletada durante os testes:
+  <p align="center">
+  <img src="figuras/TABELA.png" alt="TABELA">
+  </p>
+  
 
 </p>
 
