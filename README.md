@@ -30,7 +30,7 @@
 
 ## Resolução do problema
 <p align="justify">
-  Antes de mais nada, quando refere-se a análise assintótica destas funções MinMax, tem-se essa tabela que reune o "gasto computacional" em funções dos algoritmos representados, demonstrando no melhor caso, pior caso e no caso médio.
+  Antes de mais nada, quando refere-se a análise assintótica destas funções MinMax, tem-se essa tabela que reune o "gasto computacional" previsto em funções dos algoritmos representados, demonstrando no melhor caso, pior caso e no caso médio.
   <p align="center">
   <img src="figuras/TABELAMINMAX.png" alt="MINMAXTABELA">
   </p>
@@ -57,7 +57,7 @@
 </p>
 
 ## Referências
-
+DA SILVA, Michel Pires. Material de aula: Análise Assintótica. 8 atrás. 2024. Apresentação de slides. Disponível em: <https://ava.cefetmg.br/pluginfile.php/250215/mod_resource/content/8/Aula1.pdf>. Acesso em 18 mar. 2024.
 
 
 ## Compilação e execução
