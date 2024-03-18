@@ -11,9 +11,9 @@
   O sistema em si deverá identificar qual dos três algoritmos está sendo executado, verificar sua eficiência de execução no mesmo vetor com três ordenações distintas (sendo estas aleatória, crescente e decrescente). Além de repetir este processo por dez vezes e criando uma média do mesmo para retorno do resultado.
   Os tamanhos selecionados para este programa quanto aos vetores foram: 1000, 10.000, 100.000 e 500.000. Sendo um vetor de números inteiros que variam de 0 a 1000.
 </p>
-<p allign="justify">
+<p align="justify">
   Verifica-se abaixo as três arquiteturas de códigos (Em Pascal) que devem ser adaptadas para o programa em C++:
-  <p allign="center">
+  <p align="center">
   <img src="figuras/MINMAX1.png" alt="MINMAX1">
   <img src="figuras/MINMAX2.png" alt="MINMAX2">
   <img src="figuras/MINMAX3.png" alt="MINMAX3">
@@ -31,7 +31,7 @@
 ## Resolução do problema
 <p align="justify">
   Antes de mais nada, quando refere-se a análise assintótica destas funções MinMax, tem-se essa tabela que reune o "gasto computacional" em funções dos algoritmos representados, demonstrando no melhor caso, pior caso e no caso médio.
-  <p allign="center">
+  <p align="center">
   <img src="figuras/TABELAMINMAX.png" alt="MINMAXTABELA">
   </p>
 
