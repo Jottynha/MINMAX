@@ -9,8 +9,15 @@
 <p align="justify">
   Este programa tem por objetivo verificar o tempo de execução (dado em nanosegundos) dos três algoritmos que implementam a busca de valores mínimos e máximos dentro de um vetor de três maneiras distintas, segundo alguns parâmetros sugeridos dentro de aula.
   O sistema em si deverá identificar qual dos três algoritmos está sendo executado, verificar sua eficiência de execução no mesmo vetor com três ordenações distintas (sendo estas aleatória, crescente e decrescente). Além de repetir este processo por dez vezes e criando uma média do mesmo para retorno do resultado.
-  Os tamanhos selecionados para este programa quanto aos vetores foram: 1000,10.000,100.000 e 500.000. Sendo um vetor de números inteiros que variam de 0 a 1000.
-  
+  Os tamanhos selecionados para este programa quanto aos vetores foram: 1000, 10.000, 100.000 e 500.000. Sendo um vetor de números inteiros que variam de 0 a 1000.
+</p>
+<p allign="justify">
+  Verifica-se abaixo as três arquiteturas de códigos (Em Pascal) que devem ser adaptadas para o programa em C++:
+  <p allign="center">
+  <img src="figuras/MINMAX1.png" alt="MINMAX1">
+  <img src="figuras/MINMAX2.png" alt="MINMAX2">
+  <img src="figuras/MINMAX3.png" alt="MINMAX3">
+  </p>
 </p>
 
 ## Arquivos
