@@ -30,7 +30,10 @@
 
 ## Resolução do problema
 <p align="justify">
-
+  Antes de mais nada, quando refere-se a análise assintótica destas funções MinMax, tem-se essa tabela que reune o "gasto computacional" em funções dos algoritmos representados, demonstrando no melhor caso, pior caso e no caso médio.
+  <p allign="center">
+  <img src="figuras/TABELAMINMAX.png" alt="MINMAXTABELA">
+  </p>
 
 <p align="center">
   <img src="figuras/MINMAXHPP.png" alt="MINMAX.hpp">
