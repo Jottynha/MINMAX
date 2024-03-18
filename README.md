@@ -34,7 +34,17 @@
   <p align="center">
   <img src="figuras/TABELAMINMAX.png" alt="MINMAXTABELA">
   </p>
+Assim sendo tem-se o sistema abaixo contendo os arquivos citados acima além do objetivo de cada função:
 
+- ```vector<int> GerarVetor(int n)```: função responsável por gerar o vetor com o tamanho selecionado e com números aleatórios entre 0 e 1000, retornando o mesmo;
+- ```void organizarCrescente(vector<int> vec)```: função responsável por organizar o vetor crescentemente;
+- ```void organizarDecrescente(vector<int> vec)```: função responsável por organizar o vetor decrescentemente;
+- ```void printarVetor(const vector<int> vec)```: função responsável por imprimir o vetor no terminal;
+- ```void registrarVetor(const vector<int> vec, const string nomeArquivo)```: função responsável por escrever no arquivo "vetores.mps" os tempos de execução médio de cada MinMax;
+- ```double MinMax1(const vector<int> vec)```: função responsável por verificar o mínimo e máximo do vetor segundo o tipo um estabelecido;
+- ```double MinMax2(const vector<int> vec)```: função responsável por verificar o mínimo e máximo do vetor segundo o tipo dois estabelecido;
+- ```double MinMax3(const vector<int> vec)```: função responsável por verificar o mínimo e máximo do vetor segundo o tipo três estabelecido;
+- ```double Media(const vector<int> vec,int opcao)```: função responsável por fazer a média de dez execuções do MinMax desejado;
 <p align="center">
   <img src="figuras/MINMAXHPP.png" alt="MINMAX.hpp">
   <img src="figuras/MINMAXCPP1.png" alt="MINMAX.cpp">
