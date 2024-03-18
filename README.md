@@ -55,6 +55,8 @@ Assim sendo tem-se o sistema abaixo contendo os arquivos citados acima além do 
   <img src="figuras/MINMAXCPP6.png" alt="MINMAX.cpp">
   <img src="figuras/MAIN.png" alt="Main">
 </p>
+  Primordialmente utilizei da biblioteca
+  <br>
 
 
 
