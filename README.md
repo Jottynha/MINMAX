@@ -1,12 +1,14 @@
-<h1 align="center" font-size="200em"><b>Jogo da Vida e Manipulação de Matriz</b></h1>
+<h1 align="center" font-size="200em"><b>Avaliação dos Algoritmos Minimax</b></h1>
 
 ## Introdução
 <p align="justify">
-
+  Este é um programa desenvolvido em C++ para a disciplina de Algoritmos e Estruturas de Dados I. O mesmo tem por objetivo simular algoritmos Minimax através de processos distintos, verificando o tempo de execução dos três algoritmos e analisando a eficiência destes processos. Seguindo as instruções associadas à aula de análise assintótica, que é responsável por observar a capacidade ou computabilidade dos algoritmos, definindo um "custo" para execução destes. Pois atualmente há uma grande exigência do mercado quanto a diminuição dos custos visando o aprimoramento dos algoritmos.
 </p>
 
 ## Objetivos
 <p align="justify">
+  Este programa tem por objetivo verificar o tempo de execução (dado em nanosegundos) dos três algoritmos que implementam a busca de valores mínimos e máximos dentro de um vetor de três maneiras distintas, segundo alguns parâmetros sugeridos dentro de aula.
+  
 </p>
 
 ## Arquivos
