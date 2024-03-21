@@ -74,14 +74,26 @@ Assim sendo tem-se o sistema abaixo contendo os arquivos citados acima além do 
   <p align="center">
   <img src="figuras/TESTE.png" alt="TESTE">
   </p>
-<br><br>Assim sendo, utilizando da linguagem gnuplot para criarmos os gráficos a partir do "pior resultado" de cada um dos casos vistos na tabela, tem-se esses três gráficos do tempo de execução pelo tamanho do vetor, separados pela maneira como o vetor está ordenado:
+<br><br>Assim sendo, utilizando da linguagem gnuplot para criarmos os gráficos a partir do "pior resultado" de cada um dos casos vistos na tabela, observe o codigo para compilação abaixo e como ele deve ser compilado no terminal (obs: você deve abrir a pasta do arquivo no terminal):
+  <p align="center">
+  <img src="figuras/GRAFICOGP.png" alt="GRAFICO.GP">
+  </p>
+<br><br>Além disso esses são os dados analisados, separados por arquivos que representam como o vetor estava organizado:
+  <p align="center">
+  <img src="figuras/DADOS.png" alt="DADOS">
+  </p>
+<br><br>Tem-se esses três gráficos do tempo de execução pelo tamanho do vetor, separados pela maneira como o vetor está ordenado:
 <table>
     <tr>
        <td><img src="figuras/GRAFICORANDOM.png" alt="GRAFICO RANDOM"></td>
-       <td><img src="figuras/GRAFICOCRESCENTE.png" alt="GRAFICO RANDOM"></td>
-       <td><img src="figuras/GRAFICODECRESCENTE.png" alt="GRAFICO RANDOM"></td>
+       <td><img src="figuras/GRAFICOCRESCENTE.png" alt="GRAFICO CRESCENTE"></td>
+       <td><img src="figuras/GRAFICODECRESCENTE.png" alt="GRAFICO DECRESCENTE"></td>
     </tr>
 </table>
+<br><br>Nota-se um maior intervalo de execução provindo do "MinMax3" apesar de seu desempenho ser teoricamente o mais "otimizado" relativo a execução das funções. Agora observando os MinManx1 e MinMax2 percebe-se uma curva muito semelhante, muitas vezes quase imperceptível quando se trata de grande valores. Porém ao se aproximar do mesmo, principalmente nos vetores de maior números, tem-se o veredito de que o MinMax2 apresenta a melhor constância de valores e maior otimização quanto a tempo de execução. Isso fica principalmente vísivel quando o vetor esta ordenado crescentemente, demonstrando a real queda de otimização do MinMax1. Observe abaixo a junção de todos os gráficos vistos acima:
+  <p align="center">
+  <img src="figuras/GRAFICOSGERAL.png" alt="TESTE">
+  </p>
 </p>
 
 
