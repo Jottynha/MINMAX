@@ -1,16 +1,16 @@
 
 VETOR NA ORDEM ALEATÓRIA
-Tempo de Execução Médio MINMAX[1] : 0.0045255
-Tempo de Execução Médio MINMAX[2] : 0.0044279
-Tempo de Execução Médio MINMAX[3] : 0.0072913
+Tempo de Execução Médio MINMAX[1] : 0.0048518
+Tempo de Execução Médio MINMAX[2] : 0.0047219
+Tempo de Execução Médio MINMAX[3] : 0.0078498
 
 VETOR NA ORDEM CRESCENTE
-Tempo de Execução Médio MINMAX[1] : 0.0045229
-Tempo de Execução Médio MINMAX[2] : 0.0044801
-Tempo de Execução Médio MINMAX[3] : 0.007334
+Tempo de Execução Médio MINMAX[1] : 0.004848
+Tempo de Execução Médio MINMAX[2] : 0.0046881
+Tempo de Execução Médio MINMAX[3] : 0.0077127
 
 VETOR NA ORDEM DECRESCENTE
-Tempo de Execução Médio MINMAX[1] : 0.0045164
-Tempo de Execução Médio MINMAX[2] : 0.0044665
-Tempo de Execução Médio MINMAX[3] : 0.0073675
+Tempo de Execução Médio MINMAX[1] : 0.0048033
+Tempo de Execução Médio MINMAX[2] : 0.0046521
+Tempo de Execução Médio MINMAX[3] : 0.0076813
 
