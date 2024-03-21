@@ -67,13 +67,17 @@ Assim sendo tem-se o sistema abaixo contendo os arquivos citados acima além do 
   <p align="center">
   <img src="figuras/TABELA.png" alt="TABELA">
   </p>
-  
-
+<br><br>Como verificamos acima, os valores são dados em nanosegundos, possuindo uma variação coletada durante os testes. Como à exemplo, com o vetor de tamanho 1000 utilizando o "MinMax1" ordenado de modo aleatório demorou cerca de 9,7 * 10⁻⁶ nanosegundos, com uma abertura de mais ou menos 0,3 * 10⁻⁶. Durante a execução, o terminal demonstra o vetor e os valores mínimos e máximos enquanto o arquivo demonstra o tempo, como mostrado abaixo:
+  <p align="center">
+  <img src="figuras/TESTE.png" alt="TESTE">
+  </p>
 </p>
 
 
 ## Conclusão
 <p align="justify">
+  Tendo em vista todos os dados coletados, percebe-se que apesar do comportamento teoricamente mais eficaz do "MinMax3" ainda sim o tempo de execução do mesmo demonstrou a maior janela de tempo, isso em geral deve-se a vários fatores discutidos em sala, principalmente pela facilidade do sistema em executar programas com lógicas simples, assim sendo há-se essa justificativa quanto a aplicação teórica das funções que representam o consumo computacional e os exemplos aplicados.
+  <br><br>Sendo assim, teoricamente apesar do "MinMax3" apresentar o melhor algoritmo de busca dentre os três definidos, ainda sim seu tempo de execução varia em pouco dentros os demais. Paralelamente a isso, as funções "MinMax1" e "MinMax2" apresentam janelas de tempos semelhantes, onde "MinMax2" variava mais durante os testes criando uma resposta menos precisa, enquanto "MinMax1" apresentava uma maior precisão de dados durante o teste.
 </p>
 
 ## Referências
