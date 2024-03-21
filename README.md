@@ -77,9 +77,9 @@ Assim sendo tem-se o sistema abaixo contendo os arquivos citados acima além do 
 <br><br>Assim sendo, utilizando da linguagem gnuplot para criarmos os gráficos a partir do "pior resultado" de cada um dos casos vistos na tabela, tem-se esses três gráficos do tempo de execução pelo tamanho do vetor, separados pela maneira como o vetor está ordenado:
 <table>
     <tr>
-       <td><img src="GRAFICORANDOM.png" alt="GRAFICO RANDOM"></td>
-       <td><img src="GRAFICOCRESCENTE.png" alt="GRAFICO RANDOM"></td>
-       <td><img src="GRAFICODECRESCENTE.png" alt="GRAFICO RANDOM"></td>
+       <td><img src="figuras/GRAFICORANDOM.png" alt="GRAFICO RANDOM"></td>
+       <td><img src="figuras/GRAFICOCRESCENTE.png" alt="GRAFICO RANDOM"></td>
+       <td><img src="figuras/GRAFICODECRESCENTE.png" alt="GRAFICO RANDOM"></td>
     </tr>
 </table>
 </p>
