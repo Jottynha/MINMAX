@@ -2,7 +2,7 @@
 
 ## Introdução
 <p align="justify">
-  Este é um programa desenvolvido em C++ para a disciplina de Algoritmos e Estruturas de Dados I. O mesmo tem por objetivo simular algoritmos Minimax através de processos distintos, verificando o tempo de execução dos três algoritmos e analisando a eficiência destes processos. Seguindo as instruções associadas à aula de análise assintótica, que é responsável por observar a capacidade ou computabilidade dos algoritmos, definindo um "custo" para execução destes. Pois atualmente há uma grande exigência do mercado quanto a diminuição dos custos visando o aprimoramento dos algoritmos.
+  Este é um programa desenvolvido em C++ para a disciplina de Algoritmos e Estruturas de Dados I. O mesmo tem por objetivo simular algoritmos Minimax através de processos distintos, verificando o tempo de execução dos três algoritmos e analisando a eficiência destes processos. Seguindo as instruções associadas à aula de análise assintótica, que é responsável por observar a capacidade ou computabilidade dos algoritmos, definindo um "custo" para execução destes. Pois atualmente há uma grande exigência do mercado quanto a diminuição dos custos visando o aprimoramento dos algoritmos. E posteriormente analisando os valores em gráficos.
 </p>
 
 ## Objetivos
@@ -23,6 +23,9 @@
 ## Arquivos
 ### dataset
 - ```vetores.mps.txt```: arquivo que contém os tempos de execução do programa;
+- ```grafico.gp```: arquivo do gnuplot que plota os gráficos;
+- ```dados[1...3].txt```: arquivo que contém os tempos de execução do programa em relação aos vetores;
+- ```grafico.png```: arquivo que contém o resultado do gnuplot;
 ## src
 - ```MinMax.hpp```: arquivo que contém o cabeçalho das funções MinMax;
 - ```MinMax.cpp```: arquivo que contém o código de funcionamento das funções MinMax e auxiliares (manipulação);
@@ -71,6 +74,14 @@ Assim sendo tem-se o sistema abaixo contendo os arquivos citados acima além do 
   <p align="center">
   <img src="figuras/TESTE.png" alt="TESTE">
   </p>
+<br><br>Assim sendo, utilizando da linguagem gnuplot para criarmos os gráficos a partir do "pior resultado" de cada um dos casos vistos na tabela, tem-se esses três gráficos do tempo de execução pelo tamanho do vetor, separados pela maneira como o vetor está ordenado:
+<table>
+    <tr>
+       <td><img src="GRAFICORANDOM.png" alt="GRAFICO RANDOM"></td>
+       <td><img src="GRAFICOCRESCENTE.png" alt="GRAFICO RANDOM"></td>
+       <td><img src="GRAFICODECRESCENTE.png" alt="GRAFICO RANDOM"></td>
+    </tr>
+</table>
 </p>
 
 
