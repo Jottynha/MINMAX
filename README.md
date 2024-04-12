@@ -2,7 +2,7 @@
 
 ## Introdução
 <p align="justify">
-  Este é um programa desenvolvido em C++ para a disciplina de Algoritmos e Estruturas de Dados I. O mesmo tem por objetivo simular algoritmos Minimax através de processos distintos, verificando o tempo de execução dos três algoritmos e analisando a eficiência destes processos. Seguindo as instruções associadas à aula de análise assintótica, que é responsável por observar a capacidade ou computabilidade dos algoritmos, definindo um "custo" para execução destes. Pois atualmente há uma grande exigência do mercado quanto a diminuição dos custos visando o aprimoramento dos algoritmos.
+  Este é um programa desenvolvido em C++ para a disciplina de Algoritmos e Estruturas de Dados I. O mesmo tem por objetivo simular algoritmos Minimax através de processos distintos, verificando o tempo de execução dos três algoritmos e analisando a eficiência destes processos. Seguindo as instruções associadas à aula de análise assintótica, que é responsável por observar a capacidade ou computabilidade dos algoritmos, definindo um "custo" para execução destes. Pois atualmente há uma grande exigência do mercado quanto a diminuição dos custos visando o aprimoramento dos algoritmos. E posteriormente analisando os valores em gráficos.
 </p>
 
 ## Objetivos
@@ -23,6 +23,9 @@
 ## Arquivos
 ### dataset
 - ```vetores.mps.txt```: arquivo que contém os tempos de execução do programa;
+- ```grafico.gp```: arquivo do gnuplot que plota os gráficos;
+- ```dados[1...3].txt```: arquivo que contém os tempos de execução do programa em relação aos vetores;
+- ```grafico.png```: arquivo que contém o resultado do gnuplot;
 ## src
 - ```MinMax.hpp```: arquivo que contém o cabeçalho das funções MinMax;
 - ```MinMax.cpp```: arquivo que contém o código de funcionamento das funções MinMax e auxiliares (manipulação);
@@ -71,13 +74,36 @@ Assim sendo tem-se o sistema abaixo contendo os arquivos citados acima além do 
   <p align="center">
   <img src="figuras/TESTE.png" alt="TESTE">
   </p>
+Assim sendo, utilizando da linguagem gnuplot para criarmos os gráficos a partir do "pior resultado" de cada um dos casos vistos na tabela, observe o codigo para compilação abaixo e como ele deve ser compilado no terminal (obs: você deve abrir a pasta do arquivo no terminal):
+  <p align="center">
+  <img src="figuras/GRAFICOGP.png" alt="GRAFICO.GP">
+  </p>
+Além disso esses são os dados analisados, separados por arquivos que representam como o vetor estava organizado:
+  <p align="center">
+  <img src="figuras/DADOS.png" alt="DADOS">
+  </p>
+Tem-se esses três gráficos do tempo de execução pelo tamanho do vetor, separados pela maneira como o vetor está ordenado:
+<table>
+    <tr>
+       <td><img src="figuras/GRAFICORANDOM.png" alt="GRAFICO RANDOM"></td>
+       <td><img src="figuras/GRAFICOCRESCENTE.png" alt="GRAFICO CRESCENTE"></td>
+       <td><img src="figuras/GRAFICODECRESCENTE.png" alt="GRAFICO DECRESCENTE"></td>
+    </tr>
+</table>
+<br>Nota-se um maior intervalo de execução provindo do "MinMax3" apesar de seu desempenho ser teoricamente o mais "otimizado" relativo a execução das funções. Agora observando os MinManx1 e MinMax2 percebe-se uma curva muito semelhante, muitas vezes quase imperceptível quando se trata de grande valores. Porém ao se aproximar do mesmo, principalmente nos vetores de maior números, tem-se o veredito de que o MinMax2 apresenta a melhor constância de valores e maior otimização quanto a tempo de execução. Isso fica principalmente vísivel quando o vetor esta ordenado crescentemente, demonstrando a real queda de otimização do MinMax1. Observe abaixo a junção de todos os gráficos vistos acima:
+  <p align="center">
+  <img src="figuras/GRAFICOGERAL.png" alt="GRAFICO GERAL">
+  </p>
 </p>
 
 
 ## Conclusão
 <p align="justify">
   Tendo em vista todos os dados coletados, percebe-se que apesar do comportamento teoricamente mais eficaz do "MinMax3" ainda sim o tempo de execução do mesmo demonstrou a maior janela de tempo, isso em geral deve-se a vários fatores discutidos em sala, principalmente pela facilidade do sistema em executar programas com lógicas simples, assim sendo há-se essa justificativa quanto a aplicação teórica das funções que representam o consumo computacional e os exemplos aplicados.
-  <br><br>Sendo assim, teoricamente apesar do "MinMax3" apresentar o melhor algoritmo de busca dentre os três definidos, ainda sim seu tempo de execução varia em pouco dentros os demais. Paralelamente a isso, as funções "MinMax1" e "MinMax2" apresentam janelas de tempos semelhantes, onde "MinMax2" variava mais durante os testes criando uma resposta menos precisa, enquanto "MinMax1" apresentava uma maior precisão de dados durante o teste.
+  <br><br>Sendo assim, teoricamente apesar do "MinMax3" apresentar o melhor algoritmo de busca dentre os três definidos, ainda sim seu tempo de execução varia em pouco dentros os demais. Paralelamente a isso, as funções "MinMax1" e "MinMax2" apresentam janelas de tempos semelhantes, onde "MinMax1" variava mais durante os testes criando uma resposta menos precisa, enquanto "MinMax2" apresentava uma maior precisão de dados durante o teste.
+  <br><br>Além disso, como citado anteriormente, muitos dos fatores externos podem variar esse tempo de execução (podendo até mesmo ultrapassar a margem de erro colocada na tabela), dentre os motivos tem-se: especificações da máquina responsável pela compilação, o próprio compilador, o sistema operacional, a repetição de valores dentro do vetor e outros fatores que afetam diretamente a execução. Pois, se tratando de uma função que o tempo de execução em IDES atuais são ínfimos, a variação se torna ainda mais distoante de acordo com o acúmulo das circustâncias citadas acima. A máquina a qual esse trabalho foi inicialmente processado não é muito potente comparado a parâmetros atuais, gerando possivelmente uma diferença de médias quando executadas em máquinas mais polidas ou até mesmo que possuam sistemas operacionais distintos. Um dos fatores a ser citado é justamente o comportamento das funções MinMax1,2 e 3 se manterem como polinomais e com curvas semelhantes, demonstrando que independente da máquina utilizada para o experimento o comportamento da função permanecerá linear.
+  <br><br>Outro fator importante a se citar é justamente o custo que as linhas de execução presentes no programa possui, como foi dito anteriormente, algoritmos simples podem ter vantagens em relação a algoritmos "complexos" porém com um funcionamento teoricamente mais rápido. No caso, o MinMax3 verifica duas posições por vez do vetor, porém, possui um número bem maior de linhas de programa dentro do algoritmo ,tendo em vista uma escala pequena. Se tornando, provavelmente, um dos fatores responsáveis pelo comportamento mais lento em tempo de execução deste algoritmo.
+  <br><br>Conclui-se que a analise assintótica atrelada a fatores de analíse estatística pode ser crucial para determinar, assim como em laboratórios simples que demadam grande precisão, a importância da consideração de fatores externos a compilação. Compreendendo assim um maior escopo de circustâncias que, quando trata-se de grandes massas de dados ou de um problema numa escala do bilhão, pode acarretar em um déficit na otimização deste tempo de execução.
 </p>
 
 ## Referências
